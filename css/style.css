@@ -1,0 +1,172 @@
+/* 共通 */
+body {
+  color: #000;
+  line-height: 1.5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  width: 92%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.title {
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.bg-color {
+  background-color: rgb(177, 216, 253);
+}
+
+.section {
+  padding: 100px 0;
+}
+
+/* ヘッダー  */
+header {
+  margin: 30px 0;
+}
+header > .container{
+  display: flex;
+}
+
+.header-navbar {
+  margin-left: auto;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-nav-item {
+  padding-right: 20px;
+  line-height: 40px;
+}
+
+.logo a {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* トップ */
+.top {
+  background-image: url(../img/トップ.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 360px;
+  position: relative;
+}
+
+.top-lead {
+  position: absolute;
+  left: 33%;
+  top: 35%;
+  color: #fff;
+}
+
+/* アバウト */
+.about-profile {
+  display: flex;
+  align-items: center;
+  border: 1px solid #000;
+}
+
+.about-img {
+  width: 50%;
+}
+
+.about-img img {
+  display: block;
+  height: 300px;
+  width: 50%;
+}
+
+.about-text {
+  font-size: 18px;
+  text-align: left;
+  margin-left: -100px;
+  width: 50%;
+}
+
+.about-icon {
+  padding-top: 50px;
+}
+
+/* できること */
+.service-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.service-list {
+  width: 30%;
+  height: 250px;
+  background: #fff;
+  padding: 10px;
+  line-height: 1.7;
+}
+
+.service-list-icon {
+  display: block;
+  margin: auto;
+  padding: 10px 0;
+}
+
+.service-list-title {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/* 制作例 */
+.work-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.work-item {
+  text-align: center;
+  border: 1px solid #000;
+}
+
+/* お問い合わせ */
+.contact-text {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-item-list {
+  padding: 30px;
+}
+
+/* フッター */
+.footer {
+  background-color: #000;
+  color: #fff;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
